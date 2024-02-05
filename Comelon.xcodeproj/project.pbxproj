@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370280AB2B5E7CA600A723DA /* ComelonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370280AA2B5E7CA600A723DA /* ComelonApp.swift */; };
+		370280AD2B5E7CA600A723DA /* ComelonAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370280AC2B5E7CA600A723DA /* ComelonAppView.swift */; };
+		370280AF2B5E7CA700A723DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370280AE2B5E7CA700A723DA /* Assets.xcassets */; };
+		370280B22B5E7CA700A723DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370280B12B5E7CA700A723DA /* Preview Assets.xcassets */; };
+		3734C60D2B66A9A4008A5EA0 /* ComelonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */; };
+		3734C60F2B66AA85008A5EA0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C60E2B66AA85008A5EA0 /* AccountView.swift */; };
+		3734C6112B66AAC3008A5EA0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C6102B66AAC3008A5EA0 /* OrderView.swift */; };
+		3734C6132B66DC29008A5EA0 /* Comelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C6122B66DC29008A5EA0 /* Comelon.swift */; };
+		3786B5982B7007E7002FC52D /* ComelonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B5972B7007E7002FC52D /* ComelonListCell.swift */; };
+		3786B59A2B701BB9002FC52D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B5992B701BB9002FC52D /* NetworkManager.swift */; };
+		3786B59C2B7022F2002FC52D /* COError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B59B2B7022F2002FC52D /* COError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		370280A72B5E7CA600A723DA /* Comelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370280AA2B5E7CA600A723DA /* ComelonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonApp.swift; sourceTree = "<group>"; };
+		370280AC2B5E7CA600A723DA /* ComelonAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonAppView.swift; sourceTree = "<group>"; };
+		370280AE2B5E7CA700A723DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370280B12B5E7CA700A723DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonListView.swift; sourceTree = "<group>"; };
+		3734C60E2B66AA85008A5EA0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3734C6102B66AAC3008A5EA0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		3734C6122B66DC29008A5EA0 /* Comelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comelon.swift; sourceTree = "<group>"; };
+		3786B5972B7007E7002FC52D /* ComelonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonListCell.swift; sourceTree = "<group>"; };
+		3786B5992B701BB9002FC52D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3786B59B2B7022F2002FC52D /* COError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370280A42B5E7CA600A723DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3702809E2B5E7CA600A723DA = {
+			isa = PBXGroup;
+			children = (
+				370280A92B5E7CA600A723DA /* Comelon */,
+				370280A82B5E7CA600A723DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370280A82B5E7CA600A723DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370280A72B5E7CA600A723DA /* Comelon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370280A92B5E7CA600A723DA /* Comelon */ = {
+			isa = PBXGroup;
+			children = (
+				3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */,
+				370280AA2B5E7CA600A723DA /* ComelonApp.swift */,
+				370280AC2B5E7CA600A723DA /* ComelonAppView.swift */,
+				370280AE2B5E7CA700A723DA /* Assets.xcassets */,
+				370280B02B5E7CA700A723DA /* Preview Content */,
+				3734C6102B66AAC3008A5EA0 /* OrderView.swift */,
+				3734C60E2B66AA85008A5EA0 /* AccountView.swift */,
+				3734C6122B66DC29008A5EA0 /* Comelon.swift */,
+				3786B5972B7007E7002FC52D /* ComelonListCell.swift */,
+				3786B5992B701BB9002FC52D /* NetworkManager.swift */,
+				3786B59B2B7022F2002FC52D /* COError.swift */,
+			);
+			path = Comelon;
+			sourceTree = "<group>";
+		};
+		370280B02B5E7CA700A723DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				370280B12B5E7CA700A723DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370280A62B5E7CA600A723DA /* Comelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370280B52B5E7CA700A723DA /* Build configuration list for PBXNativeTarget "Comelon" */;
+			buildPhases = (
+				370280A32B5E7CA600A723DA /* Sources */,
+				370280A42B5E7CA600A723DA /* Frameworks */,
+				370280A52B5E7CA600A723DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Comelon;
+			productName = Comelon;
+			productReference = 370280A72B5E7CA600A723DA /* Comelon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3702809F2B5E7CA600A723DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					370280A62B5E7CA600A723DA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 370280A22B5E7CA600A723DA /* Build configuration list for PBXProject "Comelon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3702809E2B5E7CA600A723DA;
+			productRefGroup = 370280A82B5E7CA600A723DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370280A62B5E7CA600A723DA /* Comelon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370280A52B5E7CA600A723DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370280B22B5E7CA700A723DA /* Preview Assets.xcassets in Resources */,
+				370280AF2B5E7CA700A723DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370280A32B5E7CA600A723DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3734C60F2B66AA85008A5EA0 /* AccountView.swift in Sources */,
+				3786B5982B7007E7002FC52D /* ComelonListCell.swift in Sources */,
+				370280AD2B5E7CA600A723DA /* ComelonAppView.swift in Sources */,
+				370280AB2B5E7CA600A723DA /* ComelonApp.swift in Sources */,
+				3786B59A2B701BB9002FC52D /* NetworkManager.swift in Sources */,
+				3734C6132B66DC29008A5EA0 /* Comelon.swift in Sources */,
+				3734C60D2B66A9A4008A5EA0 /* ComelonListView.swift in Sources */,
+				3786B59C2B7022F2002FC52D /* COError.swift in Sources */,
+				3734C6112B66AAC3008A5EA0 /* OrderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		370280B32B5E7CA700A723DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370280B42B5E7CA700A723DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370280B62B5E7CA700A723DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Comelon/Preview Content\"";
+				DEVELOPMENT_TEAM = H277AQHQ79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeal.code47-gmail.com.Comelon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370280B72B5E7CA700A723DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Comelon/Preview Content\"";
+				DEVELOPMENT_TEAM = H277AQHQ79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeal.code47-gmail.com.Comelon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370280A22B5E7CA600A723DA /* Build configuration list for PBXProject "Comelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370280B32B5E7CA700A723DA /* Debug */,
+				370280B42B5E7CA700A723DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370280B52B5E7CA700A723DA /* Build configuration list for PBXNativeTarget "Comelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370280B62B5E7CA700A723DA /* Debug */,
+				370280B72B5E7CA700A723DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3702809F2B5E7CA600A723DA /* Project object */;
+}
