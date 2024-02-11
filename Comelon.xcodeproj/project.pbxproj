@@ -15,6 +15,10 @@
 		3734C60F2B66AA85008A5EA0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C60E2B66AA85008A5EA0 /* AccountView.swift */; };
 		3734C6112B66AAC3008A5EA0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C6102B66AAC3008A5EA0 /* OrderView.swift */; };
 		3734C6132B66DC29008A5EA0 /* Comelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C6122B66DC29008A5EA0 /* Comelon.swift */; };
+		374D8C822B77A74F000ABFEB /* ComelonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D8C812B77A74F000ABFEB /* ComelonListViewModel.swift */; };
+		374D8C842B77A920000ABFEB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D8C832B77A920000ABFEB /* Alert.swift */; };
+		374D8C862B77E0BF000ABFEB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D8C852B77E0BF000ABFEB /* LoadingView.swift */; };
+		374D8C8A2B781163000ABFEB /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D8C892B781163000ABFEB /* RemoteImage.swift */; };
 		3786B5982B7007E7002FC52D /* ComelonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B5972B7007E7002FC52D /* ComelonListCell.swift */; };
 		3786B59A2B701BB9002FC52D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B5992B701BB9002FC52D /* NetworkManager.swift */; };
 		3786B59C2B7022F2002FC52D /* COError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B59B2B7022F2002FC52D /* COError.swift */; };
@@ -30,6 +34,10 @@
 		3734C60E2B66AA85008A5EA0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		3734C6102B66AAC3008A5EA0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		3734C6122B66DC29008A5EA0 /* Comelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comelon.swift; sourceTree = "<group>"; };
+		374D8C812B77A74F000ABFEB /* ComelonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonListViewModel.swift; sourceTree = "<group>"; };
+		374D8C832B77A920000ABFEB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		374D8C852B77E0BF000ABFEB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		374D8C892B781163000ABFEB /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		3786B5972B7007E7002FC52D /* ComelonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonListCell.swift; sourceTree = "<group>"; };
 		3786B5992B701BB9002FC52D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3786B59B2B7022F2002FC52D /* COError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COError.swift; sourceTree = "<group>"; };
@@ -65,17 +73,13 @@
 		370280A92B5E7CA600A723DA /* Comelon */ = {
 			isa = PBXGroup;
 			children = (
-				3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */,
+				370ACF032B7903D9004A0F6A /* Views */,
+				370ACF012B790376004A0F6A /* Model */,
+				370ACEFE2B7902D4004A0F6A /* Utilities */,
+				370ACEFA2B790223004A0F6A /* Screens */,
 				370280AA2B5E7CA600A723DA /* ComelonApp.swift */,
-				370280AC2B5E7CA600A723DA /* ComelonAppView.swift */,
 				370280AE2B5E7CA700A723DA /* Assets.xcassets */,
 				370280B02B5E7CA700A723DA /* Preview Content */,
-				3734C6102B66AAC3008A5EA0 /* OrderView.swift */,
-				3734C60E2B66AA85008A5EA0 /* AccountView.swift */,
-				3734C6122B66DC29008A5EA0 /* Comelon.swift */,
-				3786B5972B7007E7002FC52D /* ComelonListCell.swift */,
-				3786B5992B701BB9002FC52D /* NetworkManager.swift */,
-				3786B59B2B7022F2002FC52D /* COError.swift */,
 			);
 			path = Comelon;
 			sourceTree = "<group>";
@@ -86,6 +90,110 @@
 				370280B12B5E7CA700A723DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		370ACEFA2B790223004A0F6A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				370280AC2B5E7CA600A723DA /* ComelonAppView.swift */,
+				370ACEFD2B790271004A0F6A /* OrderView */,
+				370ACEFC2B790251004A0F6A /* AccountView */,
+				370ACEFB2B790238004A0F6A /* ComelonListView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		370ACEFB2B790238004A0F6A /* ComelonListView */ = {
+			isa = PBXGroup;
+			children = (
+				374D8C812B77A74F000ABFEB /* ComelonListViewModel.swift */,
+				3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */,
+			);
+			path = ComelonListView;
+			sourceTree = "<group>";
+		};
+		370ACEFC2B790251004A0F6A /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				3734C60E2B66AA85008A5EA0 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		370ACEFD2B790271004A0F6A /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				3734C6102B66AAC3008A5EA0 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		370ACEFE2B7902D4004A0F6A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				370ACF002B790324004A0F6A /* Alerts */,
+				370ACEFF2B7902EC004A0F6A /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		370ACEFF2B7902EC004A0F6A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3786B5992B701BB9002FC52D /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		370ACF002B790324004A0F6A /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				3786B59B2B7022F2002FC52D /* COError.swift */,
+				374D8C832B77A920000ABFEB /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		370ACF012B790376004A0F6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3734C6122B66DC29008A5EA0 /* Comelon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		370ACF022B7903BD004A0F6A /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				374D8C852B77E0BF000ABFEB /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		370ACF032B7903D9004A0F6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				370ACF052B790438004A0F6A /* IImages */,
+				370ACF042B7903FF004A0F6A /* Cells */,
+				370ACF022B7903BD004A0F6A /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		370ACF042B7903FF004A0F6A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3786B5972B7007E7002FC52D /* ComelonListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		370ACF052B790438004A0F6A /* IImages */ = {
+			isa = PBXGroup;
+			children = (
+				374D8C892B781163000ABFEB /* RemoteImage.swift */,
+			);
+			path = IImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +271,12 @@
 				370280AD2B5E7CA600A723DA /* ComelonAppView.swift in Sources */,
 				370280AB2B5E7CA600A723DA /* ComelonApp.swift in Sources */,
 				3786B59A2B701BB9002FC52D /* NetworkManager.swift in Sources */,
+				374D8C862B77E0BF000ABFEB /* LoadingView.swift in Sources */,
+				374D8C8A2B781163000ABFEB /* RemoteImage.swift in Sources */,
 				3734C6132B66DC29008A5EA0 /* Comelon.swift in Sources */,
+				374D8C822B77A74F000ABFEB /* ComelonListViewModel.swift in Sources */,
 				3734C60D2B66A9A4008A5EA0 /* ComelonListView.swift in Sources */,
+				374D8C842B77A920000ABFEB /* Alert.swift in Sources */,
 				3786B59C2B7022F2002FC52D /* COError.swift in Sources */,
 				3734C6112B66AAC3008A5EA0 /* OrderView.swift in Sources */,
 			);

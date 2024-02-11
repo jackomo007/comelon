@@ -26,7 +26,7 @@ struct ComelonAppView: View {
                     Text("Account")
                 }
         }
-        .accentColor(Color("brandPrimary"))
+        .accentColor(Color.brandPrimary)
     }
 }
 
