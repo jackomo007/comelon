@@ -11,10 +11,13 @@
 		370280AD2B5E7CA600A723DA /* ComelonAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370280AC2B5E7CA600A723DA /* ComelonAppView.swift */; };
 		370280AF2B5E7CA700A723DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370280AE2B5E7CA700A723DA /* Assets.xcassets */; };
 		370280B22B5E7CA700A723DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370280B12B5E7CA700A723DA /* Preview Assets.xcassets */; };
+		370ACF072B791198004A0F6A /* ComelonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370ACF062B791198004A0F6A /* ComelonDetailView.swift */; };
 		3734C60D2B66A9A4008A5EA0 /* ComelonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */; };
 		3734C60F2B66AA85008A5EA0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C60E2B66AA85008A5EA0 /* AccountView.swift */; };
 		3734C6112B66AAC3008A5EA0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C6102B66AAC3008A5EA0 /* OrderView.swift */; };
 		3734C6132B66DC29008A5EA0 /* Comelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734C6122B66DC29008A5EA0 /* Comelon.swift */; };
+		373D15F92B81263E001FC00B /* COButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D15F82B81263E001FC00B /* COButton.swift */; };
+		373D15FB2B8127AA001FC00B /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D15FA2B8127AA001FC00B /* XDismissButton.swift */; };
 		374D8C822B77A74F000ABFEB /* ComelonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D8C812B77A74F000ABFEB /* ComelonListViewModel.swift */; };
 		374D8C842B77A920000ABFEB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D8C832B77A920000ABFEB /* Alert.swift */; };
 		374D8C862B77E0BF000ABFEB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D8C852B77E0BF000ABFEB /* LoadingView.swift */; };
@@ -30,10 +33,13 @@
 		370280AC2B5E7CA600A723DA /* ComelonAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonAppView.swift; sourceTree = "<group>"; };
 		370280AE2B5E7CA700A723DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370280B12B5E7CA700A723DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		370ACF062B791198004A0F6A /* ComelonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonDetailView.swift; sourceTree = "<group>"; };
 		3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonListView.swift; sourceTree = "<group>"; };
 		3734C60E2B66AA85008A5EA0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		3734C6102B66AAC3008A5EA0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		3734C6122B66DC29008A5EA0 /* Comelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comelon.swift; sourceTree = "<group>"; };
+		373D15F82B81263E001FC00B /* COButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COButton.swift; sourceTree = "<group>"; };
+		373D15FA2B8127AA001FC00B /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		374D8C812B77A74F000ABFEB /* ComelonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComelonListViewModel.swift; sourceTree = "<group>"; };
 		374D8C832B77A920000ABFEB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		374D8C852B77E0BF000ABFEB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -108,6 +114,7 @@
 			children = (
 				374D8C812B77A74F000ABFEB /* ComelonListViewModel.swift */,
 				3734C60C2B66A9A4008A5EA0 /* ComelonListView.swift */,
+				370ACF062B791198004A0F6A /* ComelonDetailView.swift */,
 			);
 			path = ComelonListView;
 			sourceTree = "<group>";
@@ -173,6 +180,7 @@
 		370ACF032B7903D9004A0F6A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				373D15F72B812617001FC00B /* Buttons */,
 				370ACF052B790438004A0F6A /* IImages */,
 				370ACF042B7903FF004A0F6A /* Cells */,
 				370ACF022B7903BD004A0F6A /* UIKit Components */,
@@ -194,6 +202,15 @@
 				374D8C892B781163000ABFEB /* RemoteImage.swift */,
 			);
 			path = IImages;
+			sourceTree = "<group>";
+		};
+		373D15F72B812617001FC00B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				373D15F82B81263E001FC00B /* COButton.swift */,
+				373D15FA2B8127AA001FC00B /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +291,14 @@
 				374D8C862B77E0BF000ABFEB /* LoadingView.swift in Sources */,
 				374D8C8A2B781163000ABFEB /* RemoteImage.swift in Sources */,
 				3734C6132B66DC29008A5EA0 /* Comelon.swift in Sources */,
+				373D15F92B81263E001FC00B /* COButton.swift in Sources */,
 				374D8C822B77A74F000ABFEB /* ComelonListViewModel.swift in Sources */,
+				370ACF072B791198004A0F6A /* ComelonDetailView.swift in Sources */,
 				3734C60D2B66A9A4008A5EA0 /* ComelonListView.swift in Sources */,
 				374D8C842B77A920000ABFEB /* Alert.swift in Sources */,
 				3786B59C2B7022F2002FC52D /* COError.swift in Sources */,
 				3734C6112B66AAC3008A5EA0 /* OrderView.swift in Sources */,
+				373D15FB2B8127AA001FC00B /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
