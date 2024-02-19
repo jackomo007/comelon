@@ -11,6 +11,8 @@ final class ComelonListViewModel: ObservableObject {
     @Published var comelones: [Comelon] = []
     @Published var alertItem: AlertItem?
     @Published var isLoading = false
+    @Published var isShowingDetail = false
+    @Published var selectedComelon: Comelon?
     
     func getComelones() {
         isLoading = true

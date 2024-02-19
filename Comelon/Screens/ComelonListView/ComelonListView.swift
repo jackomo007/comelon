@@ -17,16 +17,28 @@ struct ComelonListView: View {
                 List(viewModel.comelones) {
                     comelon in
                     ComelonListCell(comelon: comelon)
+                        .onTapGesture {
+                            viewModel.selectedComelon = comelon
+                            viewModel.isShowingDetail = true
+                        }
                 }
                 .navigationTitle("🤩🍔 Comelon")
+                .disabled(viewModel.isShowingDetail)
             }
             .onAppear{
                 viewModel.getComelones()
+            }
+            .blur(radius: viewModel.isShowingDetail ? 20 : 0)
+            
+            if viewModel.isShowingDetail {
+                ComelonDetailView(comelon: viewModel.selectedComelon!, isShowingDetail: $viewModel.isShowingDetail)
             }
             
             if viewModel.isLoading {
                 LoadingView()
             }
+            
+            
         }
         .alert(item: $viewModel.alertItem) { alertItem in
             Alert(title: alertItem.title,
